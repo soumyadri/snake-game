@@ -137,7 +137,7 @@ const App = () => {
           <button onClick={handleGameOverFn} className="button-text">Reload</button>
         </div>
       </div>
-      {gameOverStatus && <p className="game-over-container">Game Over! {highestScore}</p>}
+      {gameOverStatus && <p className="game-over-container">Game Over ! {highestScore}</p>}
     </div>
   );
 };
